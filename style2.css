@@ -1,0 +1,103 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Container Styles */
+  
+  #word-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #letters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  
+  .letter-btn {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .letter-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .letter-btn.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Message Styles */
+  
+  #message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Hangman Styles */
+  
+  #hangman-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  /* Trials Styles */
+  
+  #trials {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Clue Styles */
+  
+  #clue {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Restart Button Styles */
+  
+  #restart-btn {
+    width: 100px;
+    height: 40px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #restart-btn:hover {
+    background-color: #3e8e41;
+  }
